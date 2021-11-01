@@ -14,7 +14,7 @@ VM11263:2 openLectureRoom(1,3339,'B051',2517);
 
 */
 
-	let classData_2019 = [
+	let classData_2021_2 = [
 	{
 		class_seq: "1",
 		course_code: "3407",
@@ -43,7 +43,7 @@ VM11263:2 openLectureRoom(1,3339,'B051',2517);
 	];
 
 	let extractedFormData = [];
-	classData_2019.map(classItem => {
+	classData_2021_2.map(classItem => {
 		let classFormdata = JSON.parse(JSON.stringify(classItem));
 		classItem.contents_seq.map(contents_seq => {
 			classFormdata.contents_seq = contents_seq;
