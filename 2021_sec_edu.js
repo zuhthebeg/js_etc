@@ -16,6 +16,8 @@ https://edu.fsec.or.kr/page/elearning_new?course_code=3594&site_id=B051&class_se
 [144718, 144719, 144720, 144721, 144722, 144723, 144724, 144725, 144726, 144727, 144728, 144729, 144730, 144720]
 https://edu.fsec.or.kr/page/elearning_new?course_code=3598&site_id=B051&class_seq=1&subject_code=2504&is_review=N&is_download=0
 [144793, 144794, 144795, 144796, 144797, 144798, 144799, 144800, 144801, 144802, 144795]
+https://edu.fsec.or.kr/page/elearning_new?course_code=3596&site_id=B051&class_seq=1&subject_code=2500&is_review=N&is_download=0
+[144745, 144746, 144747, 144748, 144749, 144750, 144751, 144752, 144753, 144754, 144755, 144747]
 
 2. 강의페이지까지 들어가서 아래 코드 실행 (by jax)
 Array.from(document.querySelectorAll('script')).at(-1).innerText.match(/\"contents_seq\":(\d)+\,/g).map(v => parseInt(v.replace(/[^0-9]/g, '')))
@@ -34,8 +36,13 @@ Array.from(document.querySelectorAll('script')).at(-1).innerText.match(/\"conten
 		site_id: "B051",
 		subject_code: "2504",
 		contents_seq: [144793, 144794, 144795, 144796, 144797, 144798, 144799, 144800, 144801, 144802, 144795]
+	},{
+		class_seq: "1",
+		course_code: "3596",
+		site_id: "B051",
+		subject_code: "2500",
+		contents_seq: [144745, 144746, 144747, 144748, 144749, 144750, 144751, 144752, 144753, 144754, 144755, 144747]
 	}
-
 
 
 
